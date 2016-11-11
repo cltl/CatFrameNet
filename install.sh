@@ -14,8 +14,3 @@ echo "#2. moving binary to lib folder"
 echo "#3. installing the vua-resources"
 cd "$PARENT"
 git clone https://github.com/cltl/vua-resources.git
-echo "#4. cleaning up"
-cd "$DIR"
-rm EventCoreference.iml
-rm EventCoreference.iws
-rm EventCoreference.ipr

@@ -2,3 +2,6 @@
 .gitignore
 CatFrameNet.iws
 target/
+/CatFrameNet.ipr
+/CatFrameNet.iml
+lib/
