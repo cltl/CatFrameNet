@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -e
 
 #Requires an installation of maven 2.x and Java 1.6 or higher
