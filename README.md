@@ -41,7 +41,9 @@ Clone this project with git and run the install.sh script. For installation, you
 If maven is installed do:
 
 > git clone https://github.com/cltl/CatFrameNet.git
+
 > cd CatFrameNet
+
 > ./install.sh
 
 Running software:
