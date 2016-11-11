@@ -35,4 +35,15 @@ It contains a list of the detected frames with the number of mentions by each an
 
 Full Inter-Annotator-Agreement means equal number of mentions and matches and no mismatches. If there are more mentions than matches + mismatches this means that there is a difference in coverage across the annotators.
 
-For compiling, open a command line in the cloned github folder and run mvn build
+Installation:
+
+Clone this project with git and run the install.sh script. For installation, you need to install maven (http://maven.apache.org/install.html) locally.
+If maven is installed do:
+
+> git clone https://github.com/cltl/CatFrameNet.git
+> cd CatFrameNet
+> ./install.sh
+
+Running software:
+
+You can use the matchFrameNetFrames.sh script to run the software. Make sure you adapt the script to point to the right input directory and provide the correct extension.

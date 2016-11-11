@@ -1,0 +1,9 @@
+Class: CatFrameNet
+Compares frames annoated using CAT
+
+Scripts:
+ - matchFrameNetFrames.sh
+Parameters:
+   --folder                <path to folder with input files. Folder shold contain pairs of annotated CAT files with the same name annotated by different annotators>
+   --extension             <extension of files to process>
+   --framenet              <path to framenet file with frame relations>
