@@ -254,6 +254,13 @@ public class MatchCatFrameNetFiles {
                         if (anno1Value.equals(anno2Value)) {
                             //// we have a frame match for a markable!!!!
                             //System.out.println("anno1Value = " + anno1Value);
+                            CatFrameMismatch catFrameMismatch = new CatFrameMismatch();
+                            catFrameMismatch.setName("SAMEFRAME");
+                            catFrameMismatch.setAnno1Value(anno1Value);
+                            catFrameMismatch.setAnno2Value(anno2Value);
+                            catFrameMismatch.setId(catFrameRelation1.getId());
+                            catFrameMismatch.setTokenAnchors(catFile1.getTokensFromSourceMention(catFrameRelation1));
+                            catFrameMismatchArrayList.add(catFrameMismatch);
                             if (matchMatrix.containsKey(anno1Value)) {
                                 Integer cnt = matchMatrix.get(anno1Value);
                                 cnt++;
